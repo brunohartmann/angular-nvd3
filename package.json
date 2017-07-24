@@ -1,7 +1,7 @@
 {
   "title": "AngularJS-nvD3",
   "name": "angular-nvd3",
-  "version": "1.0.9",
+  "version": "1.1",
   "description": "An AngularJS directive for NVD3.js reusable charting library",
   "homepage": "http://krispo.github.io/angular-nvd3",
   "repository": {
@@ -28,11 +28,11 @@
   "dependencies": {
     "angular": "^1.x",
     "d3": "^3.3",
-    "nvd3": "^1.7.1"
+    "nvd3": "git+https://github.com/brunohartmann/nvd3.git#v1.9.3"
   },
   "devDependencies": {
     "angular-mocks": "^1.x",
-    "grunt": "^0.4.4",
+    "grunt": "^1.0.1",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-concat": "^0.4.0",
     "grunt-contrib-jshint": "^0.10.0",
